@@ -24,7 +24,6 @@ header {
 /* intro */
 
 .intro {
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,13 +43,19 @@ header {
     font-weight: 600;
 }
 
-.intro-magic-span {
+.intro-subtitle-span {
     display: inline-block;
-    animation: magic 2s ease 1s infinite normal forwards;
+    font-size: 3rem;
+    animation: curs 1s ease-out 1s infinite normal forwards;
 }
 
 .intro-magic p {
     font-size: 3rem;
+}
+
+.intro-magic-span {
+    display: inline-block;
+    animation: magic 2s ease 1s infinite normal forwards;
 }
 
 
@@ -63,6 +68,20 @@ header {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes curs {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 
