@@ -88,4 +88,46 @@ header {
 
 /* Media Queries */
 
+@media only screen and (max-width: 768px) {
+    /* intro */
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .intro-title h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 200;
+    }
+
+    .intro-subtitle h2 {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .intro-subtitle-span {
+        display: inline-block;
+        font-size: 1rem;
+        animation: curs 1s ease-out 1s infinite normal forwards;
+    }
+
+    .intro-magic p {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .intro-magic-span {
+        margin-top: 2rem;
+        display: block;
+        animation: magic 2s ease 1s infinite normal forwards;
+    }
+}
 
