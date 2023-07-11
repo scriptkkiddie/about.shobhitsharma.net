@@ -127,7 +127,7 @@ header {
 
 /* Media Queries */
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
     .intro {
         display: flex;
@@ -167,4 +167,4 @@ header {
         display: block;
         animation: magic 2s ease 1s infinite normal forwards;
     }
-} */
+}
